@@ -2,6 +2,7 @@ import './App.css';
 import HelloWord from './components/HelloWord';
 import SayMyName from './components/SayMyName';
 import Pessoa from './components/Pessoa';
+import List from './components/List';
 
 function App() {
   const name = 'Caio'
@@ -20,7 +21,7 @@ function App() {
       <HelloWord />
       <SayMyName nome="Caio" />
       <Pessoa foto={urlPessoa} nome="Caio" idade={15} profissao='Dev' />
-      
+      <List />
     </div>
   );
 }
