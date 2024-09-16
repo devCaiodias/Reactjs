@@ -3,6 +3,8 @@ import HelloWord from './components/HelloWord';
 import SayMyName from './components/SayMyName';
 import Pessoa from './components/Pessoa';
 import List from './components/List';
+import Evento from './components/Evento';
+import Form from './components/Form';
 
 function App() {
   const name = 'Caio'
@@ -22,6 +24,12 @@ function App() {
       <SayMyName nome="Caio" />
       <Pessoa foto={urlPessoa} nome="Caio" idade={15} profissao='Dev' />
       <List />
+
+      <h1>Testando Evento</h1>
+
+      <Evento numero={1}/>
+      <Evento numero={2}/>
+      <Form />
     </div>
   );
 }
